@@ -15,7 +15,9 @@ As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBull
 3. Add **joint** to connect all components. In fusion you can select various type of joint (static, rotational, etc...) and also the pivot point.
 4. Call one componet as `base_link`
 5. Remove links of comonents (if the are right clik on it and press Break Link)
-5. Check STL joint-link structure using [Webgraphviz](http://www.webgraphviz.com/). Here how:
+    Result: https://github.com/botzo-team/our_images_and_videos/blob/main/fusion_joints_one_leg.mp4
+    ![result](https://github.com/botzo-team/our_images_and_videos/blob/main/fusion_joints_one_leg.gif)
+6. Check STL joint-link structure using [Webgraphviz](http://www.webgraphviz.com/). Here how:
     - Download [Joint2Graphviz repo](https://github.com/yanshil/Joint2Graphviz) as a ZIP.
     - Extract the ZIP in a known directory.
     - Open terminal:
