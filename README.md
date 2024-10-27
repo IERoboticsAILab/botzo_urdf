@@ -11,8 +11,11 @@ Documentation on how to build our URDF from STL file
 ## Prepare STL
 As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBullet), we must **prepare our STL** file properly.
 1. All bodies/peaces/future links must be **components**.
-2. Add **joint** to connect all components. In fusion you can select various type of joint (static, rotational, etc...) and also the pivot point.
-3. Check STL joint-link structure using [Webgraphviz](http://www.webgraphviz.com/). Here how:
+2. Add physical materials
+3. Add **joint** to connect all components. In fusion you can select various type of joint (static, rotational, etc...) and also the pivot point.
+4. Call one componet as `base_link`
+5. Remove links of comonents (if the are right clik on it and press Break Link)
+5. Check STL joint-link structure using [Webgraphviz](http://www.webgraphviz.com/). Here how:
     - Download [Joint2Graphviz repo](https://github.com/yanshil/Joint2Graphviz) as a ZIP.
     - Extract the ZIP in a known directory.
     - Open terminal:
@@ -41,7 +44,7 @@ As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBull
 
     - Copy and pase the text content to [Webgraphviz](http://www.webgraphviz.com/) and check your robot tf structure to be valid.
 
-(for more infors check [Joint2Graphviz readme](https://github.com/yanshil/Joint2Graphviz))
+**(for more infors check [Joint2Graphviz readme](https://github.com/yanshil/Joint2Graphviz))**
 
 ## Export URDF
 
@@ -62,4 +65,4 @@ As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBull
 4. Open fusion > utils > addins > my scripts > Bullet_URDF_Exporter
 5. My URDF [here](https://github.com/botzo-team/create_URDF/blob/main/final_leg.zip)
 
-(for more infors check [fusion2urdf readme](https://github.com/syuntoku14/fusion2urdf/blob/master/README.md) or [Fusion2PyBullet readme](https://github.com/yanshil/Fusion2PyBullet/blob/master/README.md))
+**(for more infors check [fusion2urdf readme](https://github.com/syuntoku14/fusion2urdf/blob/master/README.md) or [Fusion2PyBullet readme](https://github.com/yanshil/Fusion2PyBullet/blob/master/README.md))**
