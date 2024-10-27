@@ -34,7 +34,11 @@ As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBull
     - Open the file of the robot
     - Go to utility > Addins
     - Under `My Script` you should see `Joint2Graphviz`
-    - Press it. It will create a `graph.txt` (see mine [here]())
+    - Press it. It will create a `graph.txt` (see mine [here](https://github.com/botzo-team/create_URDF/blob/main/test_urdf_exporter/graph.txt))
+    <p align="center">
+        <img src="https://github.com/botzo-team/create_URDF/blob/main/test_urdf_exporter/graph_from_webgraphviz.png" alt="Graph Image" width="200"/>
+    </p>
+
     - Copy and pase the text content to [Webgraphviz](http://www.webgraphviz.com/) and check your robot tf structure to be valid.
 
 (for more infors check [Joint2Graphviz readme](https://github.com/yanshil/Joint2Graphviz))
@@ -56,6 +60,6 @@ As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBull
         PS C:\Users\orlan\OneDrive\Desktop\side_projects\Fusion2PyBullet-master> Copy-Item ".\Bullet_URDF_Exporter\" -Destination "..\..\..\..\AppData\Roaming\Autodesk\Autodesk Fusion 360\API\Scripts\" -Recurse
     ```
 4. Open fusion > utils > addins > my scripts > Bullet_URDF_Exporter
-5. My URDF [here]()
+5. My URDF [here](https://github.com/botzo-team/create_URDF/blob/main/final_leg.zip)
 
 (for more infors check [fusion2urdf readme](https://github.com/syuntoku14/fusion2urdf/blob/master/README.md) or [Fusion2PyBullet readme](https://github.com/yanshil/Fusion2PyBullet/blob/master/README.md))
