@@ -1,0 +1,2 @@
+digraph G {  "base_link" -> "wheel1" [ label = "Revolute_1" ] 
+}
