@@ -55,11 +55,11 @@ As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBull
 
 leg:
 
-[urdf](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_leg.png)
+![urdf](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_leg.png)
 
 Body:
 
-[urfd](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_body.png)
+![urfd](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_body.png)
 
 ---
 
