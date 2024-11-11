@@ -3,6 +3,7 @@ Documentation on how to build our URDF from STL file
 
 ## Resources
 
+Visit directly the repos if you don't understand something. This is a resume of what they do:
 - [Webgraphviz](http://www.webgraphviz.com/)
 - [Joint2Graphviz repo zip](https://github.com/yanshil/Joint2Graphviz)
 - [Fusion2PyBullet repo zip](https://github.com/yanshil/Fusion2PyBullet)
@@ -47,6 +48,20 @@ As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBull
     - Copy and pase the text content to [Webgraphviz](http://www.webgraphviz.com/) and check your robot tf structure to be valid.
 
 **(for more infors check [Joint2Graphviz readme](https://github.com/yanshil/Joint2Graphviz))**
+
+-----
+
+**7. We discovered that URDF does NOT suport close loop. Our leg design is one big close loop.** So we created a simple simple leg, with just 2 segments for femur and tibia (find it [here]()). Then we build a body URDF (find it [here]())
+
+leg:
+
+[urdf](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_leg.png)
+
+Body:
+
+[urfd](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_body.png)
+
+---
 
 ## Export URDF
 
