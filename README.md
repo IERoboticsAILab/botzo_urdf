@@ -61,6 +61,10 @@ Body:
 
 ![urfd](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_body.png)
 
+New simplified Body:
+
+![urfd](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_fun_pic.png)
+
 ---
 
 ## Export URDF
