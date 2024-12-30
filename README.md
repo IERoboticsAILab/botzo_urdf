@@ -51,7 +51,7 @@ As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBull
 
 -----
 
-**7. We discovered that URDF does NOT suport close loop. Our leg design is one big close loop.** So we created a simple simple leg, with just 2 segments for femur and tibia (find it [here]()). Then we build a body URDF (find it [here]())
+**7. We discovered that URDF does NOT suport close loop. Our leg design is one big close loop.** You can check `wrong_graph` folder to see a graph with a close loop... The URDF won't work if there is a close loop
 
 leg:
 
@@ -60,10 +60,6 @@ leg:
 Body:
 
 ![urfd](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_body.png)
-
-New simplified Body:
-
-![urfd](https://github.com/botzo-team/our_images_and_videos/blob/main/urdf_fun_pic.png)
 
 ---
 
