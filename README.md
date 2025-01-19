@@ -1,6 +1,10 @@
 # create_URDF
 Documentation on how to build our URDF from STL file
 
+A URDF is a file used i robotics to import the robot in a simulation. It uses the STL/CAD files as a base. Assemble them with rigid or rotatory joins, and save positions of each bone and pivot in the joints. To sum up, it is file that describe your robot in deep details and precision.
+
+Download our URDF [here](https://github.com/botzo-team/create_URDF/blob/main/final_URDF.zip)
+
 ## Resources
 
 Visit directly the repos if you don't understand something. This is a resume of what they do:
@@ -80,6 +84,6 @@ Body:
         PS C:\Users\orlan\OneDrive\Desktop\side_projects\Fusion2PyBullet-master> Copy-Item ".\Bullet_URDF_Exporter\" -Destination "..\..\..\..\AppData\Roaming\Autodesk\Autodesk Fusion 360\API\Scripts\" -Recurse
     ```
 4. Open fusion > utils > addins > my scripts > Bullet_URDF_Exporter
-5. My URDF [here](https://github.com/botzo-team/create_URDF/blob/main/final_leg.zip)
+5. My URDF [here](https://github.com/botzo-team/create_URDF/blob/main/final_URDF.zip)
 
 **(for more infors check [fusion2urdf readme](https://github.com/syuntoku14/fusion2urdf/blob/master/README.md) or [Fusion2PyBullet readme](https://github.com/yanshil/Fusion2PyBullet/blob/master/README.md))**
