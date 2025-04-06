@@ -80,7 +80,8 @@ As stated in the [Fusion2PyBullet repo](https://github.com/yanshil/Fusion2PyBull
 
 -----
 
-**7. We discovered that URDF does NOT suport close loop. Our leg design is one big close loop.** You can check `wrong_graph` folder to see a graph with a close loop... The URDF won't work if there is a close loop
+> [!WARNING]
+> 7. We discovered that URDF does NOT suport close loop. Our leg design is one big close loop. You can check `wrong_graph` folder to see a graph with a close loop... The URDF won't work if there is a close loop
 
 leg:
 
